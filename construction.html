@@ -1,0 +1,278 @@
+R<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      
+       
+
+    *{
+        margin:0;
+        padding:0;
+        
+        }
+        body::-webkit-scrollbar{
+            display: none;
+
+        }
+
+        .top {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('https://webuild.netbee.shop/demo/wp-content/uploads/revslider/home1/Front1.png');
+        }
+
+        .top1 {
+            position: absolute;
+            top: 10px;
+            color: white;
+            margin: auto;
+            top: 50%;
+            left: 50%;
+            border: 1px solid white;
+        }
+
+        .exp {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        #co {
+            height: auto;
+        }
+
+        #co .row .col-sm-3 {
+            text-align: center;
+            height: auto;
+        }
+0
+        #co .row .col-sm-3 img {
+            background-color: #f39c12;
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            padding: 20px;
+            transition: 0.3s linear;
+        }
+
+        #co .row .col-sm-3 img:hover {
+            height: 150px;
+            width: 150px;
+            padding: 0;
+        }
+
+        #ser {
+            position: relative;
+            height: auto;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://wallpaperaccess.com/full/1567666.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: 200px;
+        }
+
+        #ser1 {
+            height: auto;
+            position: relative;
+            margin: auto;
+        }
+
+        .choose {
+            text-align: center;
+            color: white;
+            margin-top: 100px;
+            display: inline-block;
+            position: relative;
+            margin-bottom: 100px;
+        }
+
+        .my {
+            margin-top: 10px;
+            display: inline-block;
+            text-align: left;
+            color: white;
+        }
+
+        .b {
+            color: white;
+            background-color: transparent;
+            height: 50px;
+            width: 100px;
+            border: 1px solid white;
+            transition: 0.4s linear;
+        }
+
+        .b:hover {
+            background-color: white;
+            color: black;
+        }
+
+        #f1 {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+            height: auto;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: 300px;
+            color: white;
+            text-align: center;
+        }
+
+        #f2 {
+            height: auto;
+            position: relative;
+            top: 20px;
+            margin-top: 20px;
+        }
+
+        .fm {
+            color: white;
+        }
+
+        .form-control {
+            color: yellow;
+            background-color: transparent;
+        }
+
+        #las {
+            height: 200px;
+            position: relative;
+            margin-top: 50px;
+            color: white;
+        }
+
+        #lar col-4 {
+            height: 50px;
+            text-align: center;
+            margin-top: 30px;
+            position: relative;
+            top: 100px;
+            display: inline-block;
+            margin-top: 100px;
+        }
+
+        #lar .col-4 .fa-2x {
+            opacity: 0.8;
+            font-size: 40px;
+        }
+
+        #bh {
+            height: 50vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnVybml0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+        }
+    </style>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position:relative; top:0;">
+        <div class="container-fluid"><a class="navbar-brand fs-2" href="#"><span style="color:yellow;">Const</span>ruction</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" data-mousedown="true" type="button">&nbsp;&nbsp;</button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a aria-current="page" class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                    <li class="nav-item dropdown"><a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdown">&nbsp;Dropdown&nbsp;</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link disabled">Disabled</a></li>
+                </ul>
+                <form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <button class="btn btn-outline-success" type="submit">Search</button></form>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+        <div class="carousel-indicators"><br></div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height:500px;"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" style="height: 100%;" alt="..."></div>
+            <div class="carousel-item" style="height:500px;"><img src="https://images.unsplash.com/photo-1599995903128-531fc7fb694b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1331&q=80" class="d-block w-100" style="height: 100%;" alt="..."></div>
+            <div class="carousel-item" style="height:500px;"><img src="https://images.unsplash.com/photo-1591955506264-3f5a6834570a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" style="height: 100%;" alt="..."></div>
+        </div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button">&nbsp; <span class="visually-hidden">Previous</span>&nbsp;</button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button">&nbsp; <span class="visually-hidden">Next</span>&nbsp;</button>
+    </div>
+    <div class="exp">
+        <h4>YEARS OF EXPERIENCE</h4>
+        <h2>** BUILD <span style="color:yellow;">BEAUTIFUL</span></h2>
+    </div>
+    <div class="container my-5 " id="co">
+        <div class="row">
+            <div class="col-sm-3"><img src="  " >
+                <h5 class="my-3"><strong>We deliver quallity</strong></h5>
+                <p class="my-3">Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
+            </div>
+            <div class="col-sm-3"><img src="https://webuild.netbee.shop/demo/wp-content/uploads/2019/11/25-clay-truck.png">
+                <h5 class="my-3"><strong>****** on time</strong></h5>
+                <p class="my-3">Praesent turpis mauris, aliquet ** dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
+            </div>
+            <div class="col-sm-3"><img src="https://webuild.netbee.shop/demo/wp-content/uploads/2019/11/29-engineer.png">
+                <h5 class="my-3"><strong>We are pasionate</strong></h5>
+                <p class="my-3">Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p>
+            </div>
+            <div class="col-sm-3"><img src="https://webuild.netbee.shop/demo/wp-content/uploads/2019/11/19-painter.png">
+                <h5 class="my-3"><strong>We are pasionate</strong></h5>
+                <p class="my-3">Praesent turpis mauris, aliquet ** dolor ******* ********** ****** ut rutrum Aenean at posuere risus.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="ser">
+        <div class="choose">
+            <h1 class="my-5">Our Services</h1>
+            <p class="my-4" style="padding-left:50px; padding-right:50px;">We are proud to present you our latest ******** that have behind a great team and **** work, but very satisfied clients.We are proud to present you our ****** projects that have behind a great team and hard work, but very ********* clients.We are proud to present you our latest projects that have behind a great team and hard work, but very satisfied clients.</p>
+        </div>
+        <div class="container" id="ser1">
+            <div class="row gx-4">
+                <div class="col-sm-4  my-4 my"><img class="img-fluid" src="%09https://webuild.netbee.shop/demo/wp-content/uploads/2015/04/services-3.jpg">
+                    <h5 class="my-3"><strong>We ******* quality</strong></h5>
+                    <p class="my-3">Praesent turpis mauris, aliquet id ***** Gravida adipiscing lectus ut ****** Aenean at posuere risus.</p><button class="b" type="button">Read More</button>
+                </div>
+                <div class="col-sm-4 my-4 my"><img class="img-fluid" src="%09https://webuild.netbee.shop/demo/wp-content/uploads/2015/04/services-2.jpg">
+                    <h5 class="my-3"><strong>Renovation</strong></h5>
+                    <p class="my-3">Praesent turpis mauris, aliquet id dolor Gravida adipiscing lectus ** rutrum Aenean ** ******* risus.</p><button class="b" type="button">Read More</button>
+                </div>
+                <div class="col-sm-4  my-4 my"><img class="img-fluid" src="%09https://webuild.netbee.shop/demo/wp-content/uploads/2015/04/services1.jpg">
+                    <h5 class="my-3"><strong>Architecture</strong></h5>
+                    <p class="my-3">Praesent turpis mauris, ******* id dolor Gravida adipiscing lectus ut rutrum Aenean at posuere risus.</p><button class="b" type="button">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="f1">
+        <h1 style="margin-top:40px;display:inline-block;"><strong>LET&apos;S TALK</strong></h1>
+        <p class="my-3">TELL US ABOUT YOUR PROJECT IDEAS OR JUST SAY HELLO.</p>
+        <div class="container" id="f2">
+            <div class="col-sm-12">
+                <form class="fm">
+                    <div class="mb-3"><label class="form-label" for="exampleInputEmail1">Name</label> <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
+                    <div class="mb-3"><label class="form-label" for="exampleInputEmail1">Email address</label> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
+                    <div class="mb-3"><label class="form-label" for="exampleInputPassword1" placeholder="enter email">Marketing</label> <input type="password" class="form-control" id="exampleInputPassword1"></div><button class="btn btn-light" type="submit">Send Your Quiry</button>
+                </form>
+            </div>
+        </div>
+        <div class="container" id="las">
+            <div class="row" id="lar">
+                <div class="col-4 "><i class="fa fa-mobile fa-2x"></i>
+                    <p>020 8256 4456</p>
+                </div>
+                <div class="col-4 "><i class="fa fa-envelope fa-2x "></i>
+                    <p>info@webuild.com</p>
+                </div>
+                <div class="col-4 "><i class="fa fa-facebook fa-2x"></i>
+                    <p>Golden Age Street, London, U.K., E14LS</p>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+
+
+</body>
+
+</html>
